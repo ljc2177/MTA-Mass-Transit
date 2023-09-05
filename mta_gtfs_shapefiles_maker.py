@@ -489,11 +489,11 @@ def make_bus_stops_shapefiles(path, folder):
 
         local_stop_shapes = gpd.sjoin(
             local_stop_shapes, counties, how="inner", op="intersects"
-        ).drop(["route_id", "index_right"], 1)
+        ).drop(["index_right"], 1)
 
         express_stop_shapes = gpd.sjoin(
             express_stop_shapes, counties, how="inner", op="intersects"
-        ).drop(["route_id", "index_right"], 1)
+        ).drop(["index_right"], 1)
 
         # save GeoDataframes to shapefiles
         local_stop_shapes.drop_duplicates(

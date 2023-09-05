@@ -1,0 +1,4 @@
+Feature count for bus_routes_nyc_september2023.shp = 511
+Feature count for express_bus_routes_nyc_september2023.shp = 158
+Feature count for bus_stops_nyc_september2023.shp = 20172
+Feature count for express_bus_stops_nyc_september2023.shp = 4348
